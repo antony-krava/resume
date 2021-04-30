@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  line-height: 24px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  margin-bottom: 45px;
+  font-style: inherit;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sub-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+/* left side */
+
+.skills-section {
+  width: 370px;
+  padding-top: 40px;
+  background-color: #1e2939;
+}
+
+.foto {
+  width: 370px;
+  margin-bottom: 51px;
+}
+
+.address-list-item {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.address-text {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.address-info {
+  opacity: 0.5;
+}
+
+.skills {
+  color: #ffffff;
+}
+
+.skills-info {
+  padding-left: 40px;
+
+  color: #fb6d3a;
+}
+
+.skills-list {
+  margin-bottom: 45px;
+}
+
+.skills-list-item {
+  margin-left: 18px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+/* end left side */
+
+/* right side */
+
+.achievements-section {
+  padding-top: 102px;
+  padding-left: 88px;
+}
+
+.specialty {
+  margin-bottom: 19px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.title-name {
+  margin-bottom: 41px;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+.projects-list {
+  margin-bottom: 50px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  list-style-position: inside;
+}
+
+.projects-links {
+  margin-left: 13px;
+  font-weight: normal;
+  color: #595959;
+}
+
+.projects-text {
+  font-weight: bold;
+}
+
+.position {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.company {
+  color: #fb6d3a;
+}
+
+.experience-list {
+  margin-bottom: 20px;
+}
+
+.experience-list-item {
+  margin-left: 18px;
+  color: #595959;
+}
+
+.university {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #fb6d3a;
+}
+
+.specialty {
+  max-width: 626px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.period {
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+/* end right side */
