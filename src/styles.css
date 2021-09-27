@@ -48,29 +48,29 @@ img {
 /* left side */
 
 .skills-section {
-  width: 370px;
+  width: 280px;
   padding-top: 40px;
   background-color: #1e2939;
 }
 
 .foto {
-  width: 370px;
+  width: 280px;
   margin-bottom: 51px;
+}
+
+.address-list-item:hover {
+  color: #fb6d3a;
 }
 
 .address-list-item {
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: #878d96;
 }
 
 .address-text {
   margin-right: 10px;
   font-weight: bold;
-}
-
-.address-info {
-  opacity: 0.5;
 }
 
 .skills {
@@ -117,6 +117,13 @@ img {
   font-weight: bold;
 }
 
+.summary-text {
+  width: 750px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #595959;
+}
+
 .projects-list {
   margin-bottom: 50px;
   font-size: 14px;
@@ -131,9 +138,13 @@ img {
   color: #595959;
 }
 
-.projects-text {
-  font-weight: bold;
+.projects-links:hover {
+  color: #fb6d3a;
 }
+
+/* .projects-text {
+  font-weight: bold;
+} */
 
 .position {
   margin-bottom: 12px;
@@ -176,6 +187,12 @@ img {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+}
+
+.pr-text {
+  font-size: 12px;
+  line-height: 15px;
+  color: #595959;
 }
 
 /* end right side */
